@@ -1,0 +1,483 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 14px;
+}
+
+.head {
+  height: 30px;
+  border-bottom: 1px solid black;
+}
+
+.head li {
+  float: right;
+}
+
+.head li p {
+  height: 30px;
+  margin-right: 20px;
+  line-height: 30px;
+  float: left;
+  text-decoration: underline;
+}
+
+.head li .img_ {
+  margin-right: 0px;
+}
+
+.logo {
+  width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.logo li {
+  float: left;
+}
+
+.logo .bd1 {
+  width: 500px;
+  height: 50px;
+  border: 1px solid #DCDCDC;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.logo .bd2 {
+  width: 100px;
+  height: 50px;
+  border: 1px solid #3385FF;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  background-color: #3385FF;
+  color: white;
+  font-weight: 700;
+}
+
+.logo .bd3 {
+  width: 100px;
+  height: 50px;
+  border: 1px solid #3385FF;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 50px;
+  margin-left: 5px;
+  font-size: 20px;
+  color: #3385FF;
+  font-weight: 700;
+}
+
+.text_ {
+  width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.text_ .text_1 li {
+  margin-right: 5px;
+  float: left;
+  position: relative;
+}
+
+.text_ .text_1 li img {
+  height: 170px;
+}
+
+.text_ .text_1 li p {
+  height: 20px;
+  width: 98%;
+  background-color: rgba(75, 75, 75, 0.5);
+  position: absolute;
+  bottom: 5px;
+  color: white;
+  padding-left: 5px;
+}
+
+.text_ .fenye_ {
+  width: 164px;
+  margin: auto;
+}
+
+.text_left {
+  width: 250px;
+  height: 1000px;
+  border: 1px solid #DCDCDC;
+  float: left;
+}
+
+.text_left .title_ {
+  line-height: 25px;
+  padding-left: 10px;
+  border-bottom: none;
+}
+
+.text_left .title_ h4 {
+  margin-top: 20px;
+}
+
+.text_left .title_ h4 span {
+  text-decoration: line-through;
+}
+
+.text_left .title_copy {
+  height: 80px;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+.text_left .title_copy .title_copy_li1 {
+  margin-left: 10px;
+  color: #9C9C9D;
+  width: 230px;
+  height: 25px;
+  float: none;
+}
+
+.text_left .title_copy .title_copy_li1 .title_small {
+  font-size: 16px;
+}
+
+.text_left .title_copy .title_copy_li1 p {
+  margin-right: 10px;
+  float: left;
+  font-size: 14px;
+}
+
+.text_top {
+  width: 702px;
+  float: right;
+  height: 1000px;
+  position: relative;
+}
+
+.text_top .text_top_ul {
+  width: 700px;
+  height: 240px;
+  border: 1px solid #DCDCDC;
+}
+
+.text_top .text_top_ul .text_two {
+  padding-left: 10px;
+  padding-top: 10px;
+  height: 20px;
+}
+
+.text_top .text_top_ul .text_img1 {
+  height: 100px;
+}
+
+.text_top .text_top_ul .text_img1 .text_img1_div {
+  float: left;
+  width: 350px;
+  height: 100px;
+}
+
+.text_top .text_top_ul .text_img1 .text_img1_div .text_img1_ul1 {
+  margin-left: 10px;
+  margin-top: 10px;
+  float: left;
+}
+
+.text_top .text_top_ul .text_img1 .text_img1_div .text_img1_ul1 img {
+  width: 90px;
+  border-radius: 5px;
+}
+
+.text_top .text_top_ul .text_img1 .text_img1_div .text_img1_ul2 {
+  margin-left: 10px;
+  margin-top: 10px;
+  float: left;
+}
+
+.text_top .text_top_ul .text_img1 .text_img1_div .text_img1_ul2 .text_img1_top {
+  width: 230px;
+  height: 20px;
+}
+
+.text_top .text_top_ul .text_img1 .text_img1_div .text_img1_ul2 .text_img1_top .text_img1_img1 {
+  width: 40px;
+  height: 20px;
+  float: left;
+}
+
+.text_top .text_top_ul .text_img1 .text_img1_div .text_img1_ul2 .text_img1_top .text_img1_img2 {
+  float: left;
+  color: #055698;
+  font-weight: 600;
+}
+
+.text_top .text_top_ul .text_img1 .text_img1_div .text_img1_ul2 .text_img1_center {
+  margin-top: 15px;
+}
+
+.text_top .text_top_ul .text_img1 .text_img1_div .text_img1_ul2 .text_img1_bottom {
+  margin-top: 15px;
+}
+
+.text_top .text_top_ul .text_img1 .text_img1_div .text_img1_ul2 .text_img1_bottom .text_img1_1 {
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+.text_top .text_top_ul .text_img1 .text_img1_div .text_img1_ul2 .text_img1_bottom .text_img1_2 {
+  float: left;
+}
+
+.text_top .text_top_ul .text_img1 .text_img1_div .text_img1_ul2 .text_img1_bottom .text_img1_3 {
+  width: 20px;
+  height: 20px;
+  margin-left: 40px;
+  float: left;
+}
+
+.text_top .text_top_ul .text_img1 .text_img1_div .text_img1_ul2 .text_img1_bottom .text_img1_4 {
+  float: left;
+}
+
+.text_top .text_top_ul .text_img2 .text_img2_ {
+  width: 660px;
+  margin: auto;
+}
+
+.text_top .text_top_ul .text_img2 .text_img2_ .text_img2_box {
+  width: 160px;
+  height: 70px;
+  float: left;
+  margin-right: 2px;
+  border: 1px solid #DCDCDC;
+}
+
+.text_top .text_top_ul .text_img2 .text_img2_ .text_img2_box .text_img2_img {
+  float: left;
+}
+
+.text_top .text_top_ul .text_img2 .text_img2_ .text_img2_box .text_img2_img img {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.text_top .text_top_ul .text_img2 .text_img2_ .text_img2_box .text_img2_text {
+  width: 80px;
+  float: left;
+  margin-left: 5px;
+}
+
+.text_top .text_top_ul .text_img2 .text_img2_ .text_img2_box .text_img2_text .text_img2_text1 {
+  width: 80px;
+  height: 20px;
+}
+
+.text_top .text_top_ul .text_img2 .text_img2_ .text_img2_box .text_img2_text .text_img2_text2 {
+  width: 7px;
+  height: 7px;
+}
+
+.text_top .text_top_ul .text_img2 .text_img2_ .text_img2_box .text_img2_text .text_img2_text2 .text_img2_img1111 {
+  width: 7px;
+  height: 7px;
+}
+
+.text_top .text_top_ul .text_img2 .text_img2_ .text_img2_box .text_img2_text .text_img2_text2 .text_img2_text_1 {
+  width: 60px;
+  overflow: hidden;
+}
+
+.text_top .text_bottom {
+  width: 450px;
+  height: 160px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border: 1px solid #DCDCDC;
+  float: left;
+}
+
+.text_top .text_bottom .bottom_1 {
+  margin-left: 10px;
+  width: 210px;
+  float: left;
+}
+
+.text_top .text_bottom .bottom_1 .bottom_1_li1 {
+  margin-bottom: 10px;
+}
+
+.text_top .text_bottom .bottom_1 .bottom_1_li2 .game_img {
+  float: left;
+}
+
+.text_top .text_bottom .bottom_1 .bottom_1_li2 .game_img img {
+  width: 145px;
+}
+
+.text_top .text_bottom .bottom_1 .bottom_1_li2 .game_list {
+  float: left;
+}
+
+.text_top .text_bottom .bottom_1 .bottom_1_li2 .game_list .game_list_1 {
+  text-align: center;
+  border: 1px solid #DCDCDC;
+  margin-bottom: 2px;
+  margin-left: 5px;
+}
+
+.text_top .text_bottom2 {
+  width: 420px;
+  height: 30px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 30px;
+  border: 1px solid #DCDCDC;
+  float: left;
+  color: #3385FF;
+}
+
+.text_top .text_bottom2 .text_bottom2_p {
+  width: 60px;
+  height: 28px;
+  border-bottom: 2px solid #517fc4;
+}
+
+.text_top .text_bottom3 {
+  width: 450px;
+  height: 260px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border: 1px solid #DCDCDC;
+  float: left;
+}
+
+.text_top .text_bottom3 .text_bottom3_1 {
+  overflow: hidden;
+}
+
+.text_top .text_bottom3 .text_bottom3_1 .cepin_img {
+  float: left;
+}
+
+.text_top .text_bottom3 .text_bottom3_1 .cepin_text {
+  margin-top: 5px;
+  float: left;
+}
+
+.text_top .text_bottom3 .text_bottom3_2 {
+  overflow: hidden;
+}
+
+.text_top .text_bottom3 .text_bottom3_2 .car_text {
+  float: left;
+  color: #4477a3;
+}
+
+.text_top .text_bottom3 .text_bottom3_2 .car_img {
+  float: left;
+}
+
+.text_top .text_bottom3 .tesila {
+  margin: 5px;
+}
+
+.text_top .text_bottom3 .text_bottom3_3 {
+  margin-left: 10px;
+}
+
+.text_top .text_bottom3 .text_bottom3_3 .text_b_3_left {
+  float: left;
+  width: 100px;
+  color: #949596;
+}
+
+.text_top .text_bottom3 .text_bottom3_3 .text_b_3_left .img_ren {
+  float: left;
+}
+
+.text_right {
+  width: 242px;
+  height: 500px;
+  position: absolute;
+  right: 0;
+  top: 252px;
+}
+
+.text_right .erweima {
+  width: 220px;
+  height: 30px;
+  padding-left: 20px;
+  line-height: 30px;
+  border: 1px solid #DCDCDC;
+}
+
+.text_right .erwei_text {
+  float: left;
+}
+
+.text_right .erwei_text p {
+  margin-top: 18px;
+}
+
+.text_right .erweima_ {
+  width: 240px;
+  height: 75px;
+}
+
+.text_right .erweima_ img {
+  float: right;
+}
+
+.text_right .text_hot {
+  width: 240px;
+  height: 30px;
+  border: 1px solid #DCDCDC;
+  margin-top: 10px;
+  line-height: 30px;
+}
+
+.text_right .text_hot .left {
+  float: left;
+  margin-left: 5px;
+}
+
+.text_right .text_hot .right {
+  float: right;
+  margin-right: 10px;
+  color: #3b9af3;
+  font-size: 12px;
+}
+
+.text_right .no_1 {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  width: 240px;
+  height: 15px;
+}
+
+.text_right .no_1 .no_l {
+  width: 20px;
+  height: 20px;
+  float: left;
+  background-color: sandybrown;
+  text-align: center;
+  color: white;
+  margin-right: 10px;
+}
+
+.text_right .no_1 .no_l2 {
+  width: 20px;
+  height: 20px;
+  float: left;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.text_right .no_1 .no_c {
+  float: left;
+}
+
+.text_right .no_1 .no_r {
+  float: right;
+}
